@@ -9,4 +9,4 @@ The app features:
  - Publication Logo
  - Search function to filter articles
  
- ![Screenshot](Screen Shot 2016-12-09 at 9.33.10 AM.png)
+ ![](https://github.com/Richel325/Project2/tree/master/NewsFeed-Project2-RichelCuyler/Images?raw=true)
