@@ -9,4 +9,4 @@ The app features:
  - Publication Logo
  - Search function to filter articles
  
- ![Screenshot](screenshot.png)
+ ![Screenshot](Screen Shot 2016-12-09 at 9.33.10 AM.png)
