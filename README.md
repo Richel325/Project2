@@ -10,4 +10,4 @@ The app features:
  - Search function to filter articles
 
 
-![Screenshot](https://github.com/Richel325/Project2/tree/master/NewsFeed-Project2-RichelCuyler/Images/Updated Storyboards.png?raw=true)
+![](https://github.com/Richel325/Project2/tree/master/NewsFeed-Project2-RichelCuyler/Images/Updated Storyboards.png?raw=true)
