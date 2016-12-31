@@ -10,16 +10,15 @@ import Foundation
 import UIKit
 
 class Article {
-    var articleImage: UIImage
-    var publicationLogo: UIImage
     var articleHeadline: String
     var articleDescription: String
+    var url: String
+    var urlToImage: String
     
-    init(articleImage: UIImage, publicationLogo: UIImage, articleHeadline: String, articleDescription: String) {
-        self.articleImage = articleImage
-        self.publicationLogo = publicationLogo
+    init(articleHeadline: String, articleDescription: String, url: String, urlToImage: String) {
         self.articleHeadline = articleHeadline
         self.articleDescription = articleDescription
+        self.url = url
+        self.urlToImage = urlToImage
     }
 }
-

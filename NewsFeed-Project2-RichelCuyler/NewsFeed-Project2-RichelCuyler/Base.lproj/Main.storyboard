@@ -9,31 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Article Detail View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Article Detail View Controller" customClass="ArticleDetail" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="ArticleWebView">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jTG-HO-swC" userLabel="ArticleDetailView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2498.4000000000001" y="131.78410794602701"/>
-        </scene>
         <!--Article Select View Controller-->
         <scene sceneID="hOE-sd-ziX">
             <objects>
@@ -86,8 +61,6 @@
                                             <outlet property="articleDescription" destination="GOK-7Z-Lfi" id="izX-Qs-jTq"/>
                                             <outlet property="articleHeadline" destination="3Jh-40-ig7" id="65P-GT-sxm"/>
                                             <outlet property="articleImage" destination="c8d-Yu-cT4" id="BAF-oS-ADM"/>
-                                            <outlet property="newsLogo" destination="dYB-ID-rcv" id="w7k-Qi-hdk"/>
-                                            <segue destination="BYZ-38-t0r" kind="show" identifier="ToArticleDetailView" id="j2c-p4-wgX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -105,6 +78,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="FcT-zU-eOV"/>
+                    <connections>
+                        <outlet property="articleSearchBar" destination="a30-1I-XQG" id="D4f-k2-3K5"/>
+                        <outlet property="articleSelectTableView" destination="KiW-5U-9dv" id="HXc-Af-FX2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SpD-ls-acQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +90,7 @@
         <!--Navigation Controller-->
         <scene sceneID="BgG-j0-XMd">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gYk-rF-yYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="R6A-nP-5Pt" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6mt-Rq-Rus">
@@ -124,7 +102,6 @@
                         <segue destination="wAJ-WU-dGV" kind="relationship" relationship="rootViewController" id="SzT-mi-S6A"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gYk-rF-yYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="816.79999999999995" y="131.78410794602701"/>
         </scene>

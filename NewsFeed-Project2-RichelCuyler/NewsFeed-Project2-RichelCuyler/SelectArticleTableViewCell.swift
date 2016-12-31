@@ -11,7 +11,6 @@ import UIKit
 class SelectArticleTableViewCell: UITableViewCell {
 
     @IBOutlet weak var articleImage: UIImageView!
-    @IBOutlet weak var newsLogo: UIImageView!
     @IBOutlet weak var articleHeadline: UILabel!
     @IBOutlet weak var articleDescription: UILabel!
     
