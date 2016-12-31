@@ -9,9 +9,9 @@
 import UIKit
 import SafariServices
 
-class ArticleSelectViewController: UIViewController {
+class BuzzfeedArticleSelectViewController: UIViewController {
     
-    @IBOutlet weak var articleSearchBar: UISearchBar!
+    //@IBOutlet weak var articleSearchBar: UISearchBar!
     @IBOutlet weak var articleSelectTableView: UITableView!
     
     var articles = [Article]()
@@ -32,7 +32,7 @@ class ArticleSelectViewController: UIViewController {
     
 }
 
-extension ArticleSelectViewController: UITableViewDelegate {
+extension BuzzfeedArticleSelectViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //let cell = tableView.cellForRow(at: indexPath) as! newsTableViewCell
         let article = articles[indexPath.row]
@@ -42,7 +42,7 @@ extension ArticleSelectViewController: UITableViewDelegate {
 }
 
 
-extension ArticleSelectViewController: UITableViewDataSource {
+extension BuzzfeedArticleSelectViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return articles.count
     }
@@ -63,7 +63,6 @@ extension UIImageView {
         let urlRequest = URLRequest(url: URL(string: url)!)
         let task = URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
             guard let data = data, error == nil else { return }
-            
             DispatchQueue.main.async {
                 self.image = UIImage(data: data)
             }

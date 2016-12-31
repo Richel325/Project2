@@ -22,3 +22,6 @@ class Article {
         self.urlToImage = urlToImage
     }
 }
+
+
+//Things to add: spinner for loading articles, tabbed view to show four sources; icons/logos for each source, share function, search bar functionality

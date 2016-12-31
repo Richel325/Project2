@@ -12,7 +12,6 @@ enum Source: String {
     case buzzfeed = "buzzfeed"
     case newyorkmag = "new-york-magazine"
     case verge = "the-verge"
-    case techcrunch = "techcrunch"
 }
 
 
