@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +21,62 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buzzfeed-icon" translatesAutoresizingMaskIntoConstraints="NO" id="5fS-2J-vGf">
+                                <rect key="frame" x="117.5" y="89" width="140" height="139.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nymag-icon" translatesAutoresizingMaskIntoConstraints="NO" id="vlq-Re-fXr">
+                                <rect key="frame" x="117.5" y="263.5" width="140" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="Xqm-Un-9Rc"/>
+                                    <constraint firstAttribute="width" constant="140" id="pEd-Sk-IIY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verge-icon" translatesAutoresizingMaskIntoConstraints="NO" id="ega-zL-awq">
+                                <rect key="frame" x="117.5" y="438.5" width="140" height="140.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News you want..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHX-6d-Qf5">
+                                <rect key="frame" x="117.5" y="33" width="140" height="27"/>
+                                <fontDescription key="fontDescription" name="KannadaSangamMN-Bold" family="Kannada Sangam MN" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="...now!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHc-GW-XjJ">
+                                <rect key="frame" x="117.5" y="602" width="140" height="27"/>
+                                <fontDescription key="fontDescription" name="KannadaSangamMN-Bold" family="Kannada Sangam MN" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vlq-Re-fXr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4dW-I8-T3H"/>
+                            <constraint firstItem="jHc-GW-XjJ" firstAttribute="trailing" secondItem="ega-zL-awq" secondAttribute="trailing" id="4n2-FU-wF3"/>
+                            <constraint firstItem="ega-zL-awq" firstAttribute="top" secondItem="vlq-Re-fXr" secondAttribute="bottom" constant="35" id="7wp-EJ-NFU"/>
+                            <constraint firstItem="ega-zL-awq" firstAttribute="trailing" secondItem="5fS-2J-vGf" secondAttribute="trailing" id="8Lb-im-m52"/>
+                            <constraint firstItem="jHc-GW-XjJ" firstAttribute="top" secondItem="ega-zL-awq" secondAttribute="bottom" constant="23" id="DO5-pe-NmW"/>
+                            <constraint firstItem="jHc-GW-XjJ" firstAttribute="leading" secondItem="ega-zL-awq" secondAttribute="leading" id="Dl9-rO-yJa"/>
+                            <constraint firstItem="ega-zL-awq" firstAttribute="width" secondItem="vlq-Re-fXr" secondAttribute="height" multiplier="1:1" id="LHk-cz-hEG"/>
+                            <constraint firstItem="5fS-2J-vGf" firstAttribute="leading" secondItem="vlq-Re-fXr" secondAttribute="leading" id="S5F-Mc-RIb"/>
+                            <constraint firstItem="nHX-6d-Qf5" firstAttribute="leading" secondItem="5fS-2J-vGf" secondAttribute="leading" id="SiF-lI-O7i"/>
+                            <constraint firstItem="vlq-Re-fXr" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VV5-hM-Elk"/>
+                            <constraint firstItem="5fS-2J-vGf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="69" id="ZZk-Jd-lTM"/>
+                            <constraint firstItem="5fS-2J-vGf" firstAttribute="leading" secondItem="ega-zL-awq" secondAttribute="leading" id="fdx-dG-Frc"/>
+                            <constraint firstItem="5fS-2J-vGf" firstAttribute="top" secondItem="nHX-6d-Qf5" secondAttribute="bottom" constant="29" id="jje-fo-0EQ"/>
+                            <constraint firstItem="vlq-Re-fXr" firstAttribute="top" secondItem="5fS-2J-vGf" secondAttribute="bottom" constant="35" id="mLF-0b-rlG"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ega-zL-awq" secondAttribute="bottom" constant="88" id="qew-8C-y1f"/>
+                            <constraint firstItem="nHX-6d-Qf5" firstAttribute="trailing" secondItem="5fS-2J-vGf" secondAttribute="trailing" id="wVs-de-2o4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="buzzfeed-icon" width="192" height="192"/>
+        <image name="nymag-icon" width="192" height="192"/>
+        <image name="verge-icon" width="192" height="192"/>
+    </resources>
 </document>

@@ -13,10 +13,13 @@
         <scene sceneID="n7x-15-hPk">
             <objects>
                 <tabBarController id="ezk-Yr-BxM" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="nRN-Kr-Ltp">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" id="nRN-Kr-Ltp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="oW6-Iu-kDk" kind="relationship" relationship="viewControllers" id="hZl-Qm-k5m"/>
@@ -28,10 +31,10 @@
             </objects>
             <point key="canvasLocation" x="-758" y="113"/>
         </scene>
-        <!--Article Select View Controller-->
+        <!--Verge Article Select View Controller-->
         <scene sceneID="hOE-sd-ziX">
             <objects>
-                <viewController id="wAJ-WU-dGV" userLabel="Article Select View Controller" customClass="VergeArticleSelectViewController" customModule="NewsFeed_Project2_RichelCuyler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wAJ-WU-dGV" customClass="VergeArticleSelectViewController" customModule="NewsFeed_Project2_RichelCuyler" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l9r-6w-Wwm"/>
                         <viewControllerLayoutGuide type="bottom" id="hYj-L1-lbj"/>
@@ -52,20 +55,20 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c8d-Yu-cT4" userLabel="ArticleImage">
-                                                    <rect key="frame" x="0.0" y="0.0" width="132" height="128"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="149" height="134"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOK-7Z-Lfi" userLabel="ArticleDescription">
-                                                    <rect key="frame" x="140" y="42" width="235" height="84"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOK-7Z-Lfi" userLabel="ArticleDescription">
+                                                    <rect key="frame" x="157" y="42" width="210" height="84"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jh-40-ig7" userLabel="ArticleHeadline">
-                                                    <rect key="frame" x="140" y="8" width="187" height="40"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jh-40-ig7" userLabel="ArticleHeadline">
+                                                    <rect key="frame" x="157" y="8" width="210" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" name="KannadaSangamMN-Bold" family="Kannada Sangam MN" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -101,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="3727.1999999999998" y="-27.436281859070466"/>
         </scene>
-        <!--Article Select View Controller-->
+        <!--New York Mag Article Select View Controller-->
         <scene sceneID="D8Y-km-FrQ">
             <objects>
-                <viewController id="7kS-If-m6Z" userLabel="Article Select View Controller" customClass="NewYorkMagArticleSelectViewController" customModule="NewsFeed_Project2_RichelCuyler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7kS-If-m6Z" customClass="NewYorkMagArticleSelectViewController" customModule="NewsFeed_Project2_RichelCuyler" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x6j-oN-oPA"/>
                         <viewControllerLayoutGuide type="bottom" id="LFR-yJ-9kN"/>
@@ -125,20 +128,20 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vuh-Xn-L0N" userLabel="ArticleImage">
-                                                    <rect key="frame" x="0.0" y="0.0" width="132" height="128"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="149" height="134"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23K-RI-1EO" userLabel="ArticleDescription">
-                                                    <rect key="frame" x="140" y="42" width="235" height="84"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23K-RI-1EO" userLabel="ArticleDescription">
+                                                    <rect key="frame" x="157" y="42" width="210" height="84"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aV-uI-xpM" userLabel="ArticleHeadline">
-                                                    <rect key="frame" x="140" y="0.0" width="187" height="40"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aV-uI-xpM" userLabel="ArticleHeadline">
+                                                    <rect key="frame" x="157" y="0.0" width="210" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" name="KannadaSangamMN-Bold" family="Kannada Sangam MN" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -174,10 +177,10 @@
             </objects>
             <point key="canvasLocation" x="3727.1999999999998" y="701.19940029985014"/>
         </scene>
-        <!--Article Select View Controller-->
+        <!--Buzzfeed Article Select View Controller-->
         <scene sceneID="8jR-gi-ajH">
             <objects>
-                <viewController id="z3q-6G-uQb" userLabel="Article Select View Controller" customClass="BuzzfeedArticleSelectViewController" customModule="NewsFeed_Project2_RichelCuyler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="z3q-6G-uQb" customClass="BuzzfeedArticleSelectViewController" customModule="NewsFeed_Project2_RichelCuyler" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="f7Z-Ug-v51"/>
                         <viewControllerLayoutGuide type="bottom" id="kZM-cx-QHm"/>
@@ -198,20 +201,20 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tVO-uM-hqp" userLabel="ArticleImage">
-                                                    <rect key="frame" x="0.0" y="0.0" width="132" height="128"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="149" height="134"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0T-aY-FCo" userLabel="ArticleDescription">
-                                                    <rect key="frame" x="140" y="42" width="235" height="84"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0T-aY-FCo" userLabel="ArticleDescription">
+                                                    <rect key="frame" x="157" y="42" width="210" height="84"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bU5-wT-019" userLabel="ArticleHeadline">
-                                                    <rect key="frame" x="140" y="0.0" width="187" height="40"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bU5-wT-019" userLabel="ArticleHeadline">
+                                                    <rect key="frame" x="157" y="0.0" width="210" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" name="KannadaSangamMN-Bold" family="Kannada Sangam MN" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -253,9 +256,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oW6-Iu-kDk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Buzzfeed" image="buzzfeed-16x16" selectedImage="buzzfeed-16x16" id="pj2-gp-gYn"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ZD-s2-s8S">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="6ZD-s2-s8S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -272,9 +276,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nLw-et-gAK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="The Verge" image="verge-16x16" selectedImage="verge-16x16" id="DRO-ve-5xE"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3cQ-C4-sKJ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="3cQ-C4-sKJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -291,9 +296,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4TJ-e1-fE9" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="New York Mag" image="nymag-16x16" selectedImage="nymag-16x16" id="6h0-da-llz"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="erU-4L-dQa">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="erU-4L-dQa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

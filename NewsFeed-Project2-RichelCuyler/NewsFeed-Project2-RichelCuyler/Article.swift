@@ -24,4 +24,4 @@ class Article {
 }
 
 
-//Things to add: spinner for loading articles, tabbed view to show four sources; icons/logos for each source, share function, search bar functionality
+//Things to add: spinner for loading articles, icons/logos for each source, alert, search bar functionality

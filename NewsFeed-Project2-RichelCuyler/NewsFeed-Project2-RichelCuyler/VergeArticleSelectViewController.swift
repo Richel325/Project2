@@ -52,21 +52,9 @@ extension VergeArticleSelectViewController: UITableViewDataSource {
         let article = articles[indexPath.row]
         cell.articleHeadline.text = article.articleHeadline
         cell.articleDescription.text = article.articleDescription
-        cell.articleImage.downLoadImageV(from: article.urlToImage)
+        cell.articleImage.downLoadImage(from: article.urlToImage)
         return cell
     }
 }
 
 
-extension UIImageView {
-    func downLoadImageV(from url: String) {
-        let urlRequest = URLRequest(url: URL(string: url)!)
-        let task = URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
-            guard let data = data, error == nil else { return }
-            DispatchQueue.main.async {
-                self.image = UIImage(data: data)
-            }
-        }
-        task.resume()
-    }
-}
