@@ -31,7 +31,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eO-ff-whY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-758" y="113"/>
+            <point key="canvasLocation" x="682" y="161"/>
         </scene>
         <!--Verge Article Select View Controller-->
         <scene sceneID="hOE-sd-ziX">
@@ -307,10 +307,11 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oW6-Iu-kDk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Buzzfeed" image="Positive Dynamic_000000_25" selectedImage="Positive Dynamic_000000_25" id="pj2-gp-gYn"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ZD-s2-s8S">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="6ZD-s2-s8S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
@@ -330,10 +331,14 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nLw-et-gAK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="The Verge" image="verge-16x16" selectedImage="verge-16x16" id="DRO-ve-5xE"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3cQ-C4-sKJ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="3cQ-C4-sKJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -350,10 +355,14 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4TJ-e1-fE9" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="New York Magazine" image="News_000000_25" selectedImage="News_000000_25" id="6h0-da-llz"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="erU-4L-dQa">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="erU-4L-dQa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -362,7 +371,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GgF-cK-rzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2788" y="701.19940029985014"/>
+            <point key="canvasLocation" x="2788" y="701"/>
         </scene>
     </scenes>
     <resources>
