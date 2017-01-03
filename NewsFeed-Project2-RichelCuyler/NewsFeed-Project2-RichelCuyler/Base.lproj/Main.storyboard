@@ -305,7 +305,7 @@
         <scene sceneID="NsN-tL-ZLn">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oW6-Iu-kDk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Buzzfeed" image="Buzzfeed-App-20x20@1x" selectedImage="Buzzfeed-App-20x20@1x" id="pj2-gp-gYn"/>
+                    <tabBarItem key="tabBarItem" title="Buzzfeed" image="Positive Dynamic_000000_25" selectedImage="Positive Dynamic_000000_25" id="pj2-gp-gYn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ZD-s2-s8S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -348,7 +348,7 @@
         <scene sceneID="76r-Jf-So5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4TJ-e1-fE9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="New York Magazine" image="nymag-16x16" selectedImage="nymag-16x16" id="6h0-da-llz"/>
+                    <tabBarItem key="tabBarItem" title="New York Magazine" image="News_000000_25" selectedImage="News_000000_25" id="6h0-da-llz"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="erU-4L-dQa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -366,8 +366,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Buzzfeed-App-20x20@1x" width="20" height="20"/>
-        <image name="nymag-16x16" width="16" height="16"/>
+        <image name="News_000000_25" width="25" height="25"/>
+        <image name="Positive Dynamic_000000_25" width="25" height="25"/>
         <image name="verge-16x16" width="16" height="16"/>
     </resources>
 </document>
