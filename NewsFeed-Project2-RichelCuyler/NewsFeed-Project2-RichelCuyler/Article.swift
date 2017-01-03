@@ -24,4 +24,3 @@ class Article {
 }
 
 
-//Things to add: spinner for loading articles, icons/logos for each source, alert, search bar functionality
