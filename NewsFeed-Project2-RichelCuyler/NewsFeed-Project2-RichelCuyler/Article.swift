@@ -24,3 +24,4 @@ class Article {
 }
 
 
+//add: powered by NewsApi with a link to the site
