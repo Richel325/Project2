@@ -21,18 +21,10 @@ class NewYorkMagArticleSelectViewController: UIViewController {
             self.articleSelectTableView.reloadData()
         })
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
 }
 
 extension NewYorkMagArticleSelectViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //let cell = tableView.cellForRow(at: indexPath) as! newsTableViewCell
         let article = articles[indexPath.row]
         let safari = SFSafariViewController(url: URL(string: article.url)!)
         navigationController?.pushViewController(safari, animated: true)
