@@ -9,5 +9,4 @@ The app features:
  - Publication Logo
  - Search function to filter articles
 
-
-![Screenshot](https://github.com/Richel325/Project2/blob/master/Images/UpdatedStoryboards.png?raw=true)
+![Screenshot](https://github.com/Richel325/Project2/blob/master/Images/Screen%20Shot%202017-02-13%20at%2011.16.41%20AM.png?raw=true)
